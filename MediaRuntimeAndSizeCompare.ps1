@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Drawing
 
 # Get script directory
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$global:cfgPath = Join-Path $scriptDir "MediaRuntimeAndSizeCompare.cfg"
+$global:cfgPath = Join-Path $scriptDir "MediaRuntimeComparator.cfg"
 
 # Default config values
 $defaultConfig = @{
