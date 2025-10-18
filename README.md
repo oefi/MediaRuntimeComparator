@@ -58,7 +58,7 @@ It leverages `ffprobe` from the [FFmpeg](https://ffmpeg.org/) project to extract
 Instead of typing the PowerShell command every time, you can create a shortcut to run the script with a double‑click:
 
 1. Right‑click on your desktop → **New** → **Shortcut**  
-2. In the location field, paste the following (adjust the path to where you saved the script):  
+2. In the location field, paste the following (**adjust the path to where you saved the script**):  
    `powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\MediaRuntimeComparator.ps1"`  
 3. Click **Next**, give it a name (e.g. `MediaRuntimeComparator`), and finish.  
 4. (Optional) Right‑click the shortcut → **Properties** → **Change Icon…** to give it a custom look.  
