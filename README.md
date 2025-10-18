@@ -28,12 +28,14 @@ It leverages `ffprobe` from the [FFmpeg](https://ffmpeg.org/) project to extract
 
       **Option A – Clone the repository**
 
-      Run `git clone https://github.com/yourusername/MediaRuntimeComparator.git` and then `cd MediaRuntimeComparator`.
+      - Run `git clone https://github.com/yourusername/MediaRuntimeComparator.git` and then `cd MediaRuntimeComparator`.
 
-   **Option B – Download the ready‑to‑use ZIP**
-
-      Go to the [Releases](../../releases) page of this repository and download the latest `.zip` package.  
-      Unzip it to a folder of your choice.
+      **Option B – Copy the script directly**
+     
+      - Navigate to the [Files](../../) section of this repository
+      - open `MediaRuntimeComparator.ps1`
+      - click **Raw** → then copy and paste the contents into a new file named `MediaRuntimeComparator.ps1` on your computer.
+   
 2. **Ensure `ffprobe.exe` is available:**  
    - Download it as part of the official [FFmpeg builds](https://ffmpeg.org/download.html).  
      On Windows, you can grab a pre‑compiled zip from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) or [BtbN builds](https://github.com/BtbN/FFmpeg-Builds/releases).  
@@ -41,8 +43,8 @@ It leverages `ffprobe` from the [FFmpeg](https://ffmpeg.org/) project to extract
    - Place `ffprobe.exe` in the same folder as the script, **or**  
    - Set its path in the GUI once the app is running.
 
-3. **Run the script:**  
-   Execute `powershell -ExecutionPolicy Bypass -File .\MediaRuntimeComparator.ps1`.
+3. **Run the script in your powershell terminal:**  
+    - Execute `powershell -ExecutionPolicy Bypass -File .\MediaRuntimeComparator.ps1`.
 
 4. **In the GUI:**  
    - Select a folder to scan  
