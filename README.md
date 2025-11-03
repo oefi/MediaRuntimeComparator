@@ -13,7 +13,7 @@ It leverages `ffprobe` from the [FFmpeg](https://ffmpeg.org/) project to extract
 - 🗑️ Right‑click to **delete files** directly from the list
 - 📂 Double‑click to **open files** in your default media player
 - 💾 Saves settings (last folder, window size, tolerance, ffprobe path) between sessions
-
+- ❌ Potential parsing errors (corrupt file, metadata...) provided by ffprobe are shown in the powershell terminal
 ---
 
 ## 📦 Requirements
